@@ -14,8 +14,14 @@ def quickBakcup():
 
 # def log(): # log file function
     
-# update to save to external HDD - erno 13 error. need to find out how to allow access.
-
+# update to save to external HDD - PermissionError: [Errno 13] Permission denied: '/home/media'
+# Next steps:
+# 1. need to find out how to allow access.
+# https://careerkarma.com/blog/python-permissionerror-errno-13-permission-denied/
+# refer to /home/sherms/Python files/csv_import/csv_import.py
+# 2. need to change permissions so Python can access external drive - WD HDD 500GB
+# 3. after I have finished the program, make executable. elf (executable and linkable format) file in linux.
+# Note: refer to /home/Python files/Python permission error for info about file permissions.
 # cannot save to an existing folder - need to work out method to create new folder each time or overwrite existing folder.
 # possible method to create new folder names for target: use date+time stamp - concatenate to end of folder name
 # replicate for each folder to copy
