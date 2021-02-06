@@ -1,6 +1,7 @@
 LINKS
 1.https://careerkarma.com/blog/python-permissionerror-errno-13-permission-denied/
-
+2.https://stackoverflow.com/questions/35424831/python-how-to-copy-content-of-usbflash-to-system-directory
+3. https://docs.python.org/3/library/shutil.html
 
 NOTES
 update to save to external HDD - PermissionError: [Errno 13] Permission denied: '/home/media'
@@ -8,7 +9,7 @@ refer to /home/sherms/Python files/csv_import/csv_import.py
 refer to /home/Python files/Python permission error for info about file permissions.
 
 --Next steps:
-1.need to find out how to allow access.
+1.need to find out how to give access to external HDD.
 2.need to change permissions so Python can access external drive - WD HDD 500GB
 3.after I have finished the program, make executable. elf (executable and linkable format) file in linux.
 4.cannot save to an existing folder - need to work out method to create new folder each time or overwrite existing folder.

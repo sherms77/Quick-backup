@@ -1,16 +1,16 @@
 import os, shutil, datetime
 
-def quickBakcup():
-    shutil.copytree('/home/sherms/HackerRank', '/home/media/sherms/WD HDD 500GB/test_backup1') # erno 13 permission denied error
-    # shutil.copytree('/home/sherms/HackerRank', '/home/media/sherms/test_backup1') # did not include external drive name to see if it will copy to any usb plugged in
-    # shutil.copytree('/home/sherms/HackerRank', '/home/sherms/test') # copies folder and pastes to target
-    # shutil.copytree('/home/sherms/HackerRank', '/home/sherms/test')
+# NEXT STEP: Resolve permission error for external drive. Read link 3 in notes doc.
+# still Erno 13 error - Permission denied for line 11.
+
+def log(): # log file function
     stamp = datetime.datetime.now()
     print('Process finished at: ', stamp)
-# still Erno 13 error - Permission denied.
 
-# def log(): # log file function
+def quickBakcup():
+    shutil.copytree('/home/sherms/HackerRank', '/home/media/sherms/WD HDD 500GB/test_backup1')
+    # shutil.copytree('/home/sherms/HackerRank', '/home/sherms/test_hackerrank') # copies locally
+    
+    log()
 
 quickBakcup()
-
-	
