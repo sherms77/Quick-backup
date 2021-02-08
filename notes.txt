@@ -1,7 +1,9 @@
 LINKS
 1.https://careerkarma.com/blog/python-permissionerror-errno-13-permission-denied/
 2.https://stackoverflow.com/questions/35424831/python-how-to-copy-content-of-usbflash-to-system-directory
-3. https://docs.python.org/3/library/shutil.html
+3.https://docs.python.org/3/library/shutil.html
+4.shutil.chown(): https://docs.python.org/3/library/shutil.html#shutil.chown 
+5.os.chown(): https://docs.python.org/3/library/os.html#os.chown 
 
 NOTES
 update to save to external HDD - PermissionError: [Errno 13] Permission denied: '/home/media'
@@ -9,15 +11,21 @@ refer to /home/sherms/Python files/csv_import/csv_import.py
 refer to /home/Python files/Python permission error for info about file permissions.
 
 --Next steps:
-1.need to find out how to give access to external HDD.
-2.need to change permissions so Python can access external drive - WD HDD 500GB
-3.after I have finished the program, make executable. elf (executable and linkable format) file in linux.
-4.cannot save to an existing folder - need to work out method to create new folder each time or overwrite existing folder.
-5.possible method to create new folder names for target: use date+time stamp - concatenate to end of folder name
-6.replicate for each folder to copy
-7.create log file
-8.log file needs to print and save the lines of code executed instead of just printing a list of folders copied
-9.save log file
+1.create kanban board in GitHub projects:
+    a.backup script.
+    b.test bacup script.
+    c.log file.
+    d.test log file.
+    e.make file executable for linux - ELF file.
+2.need to find out how to give access to external HDD.
+3.need to change permissions so Python can access external drive - WD HDD 500GB PATH: /home/media/sherms/TARGET FOLDER
+4.after I have finished the program, make executable. elf (executable and linkable format) file in linux.
+5.cannot save to an existing folder - need to work out method to create new folder each time or overwrite existing folder.
+6.possible method to create new folder names for target: use date+time stamp - concatenate to end of folder name
+7.replicate for each folder to copy
+8.create log file
+9.log file needs to print and save the lines of code executed instead of just printing a list of folders copied
+10.save log file
 
 FALIED CODE
 
