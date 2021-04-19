@@ -13,7 +13,7 @@ refer to /home/Python files/Python permission error for info about file permissi
 --Next steps:
 1.create kanban board in GitHub projects:
     a.backup script.
-    b.test bacup script.
+    b.test backup script.
     c.log file.
     d.test log file.
     e.make file executable for linux - ELF file.
