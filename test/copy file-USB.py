@@ -1,7 +1,7 @@
 # https://stackoverflow.com/questions/35424831/python-how-to-copy-content-of-usbflash-to-system-directory
 # below code is from above link.
 # how to copy a file to a USB.
-# from last response - bottome of page.
+# from last response - bottom of page.
 
 '''
 import os

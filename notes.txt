@@ -9,15 +9,16 @@ NOTES
 update to save to external HDD - PermissionError: [Errno 13] Permission denied: '/home/media'
 refer to /home/sherms/Python files/csv_import/csv_import.py
 refer to /home/Python files/Python permission error for info about file permissions.
+190421: Finsihed step 1. UP TO STEP 2.
 
 --Next steps:
-1.create kanban board in GitHub projects:
+1.create kanban board in GitHub projects: - DONE (Finished step 1 190421)
     a.backup script.
     b.test backup script.
     c.log file.
     d.test log file.
     e.make file executable for linux - ELF file.
-2.need to find out how to give access to external HDD.
+2.need to find out how to give access to external HDD. - UP TO HERE
 3.need to change permissions so Python can access external drive - WD HDD 500GB PATH: /home/media/sherms/TARGET FOLDER
 4.after I have finished the program, make executable. elf (executable and linkable format) file in linux.
 5.cannot save to an existing folder - need to work out method to create new folder each time or overwrite existing folder.
