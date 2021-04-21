@@ -6,10 +6,10 @@ LINKS
 5.os.chown(): https://docs.python.org/3/library/os.html#os.chown 
 
 NOTES
+190421: Finsihed step 1. UP TO STEP 2.
 update to save to external HDD - PermissionError: [Errno 13] Permission denied: '/home/media'
 refer to /home/sherms/Python files/csv_import/csv_import.py
 refer to /home/Python files/Python permission error for info about file permissions.
-190421: Finsihed step 1. UP TO STEP 2.
 
 --Next steps:
 1.create kanban board in GitHub projects: - DONE (Finished step 1 190421)
