@@ -1,17 +1,20 @@
 import os, shutil, datetime
+# 220421: WORKING ON STEP 8
 
-# 090221: UPTO COPY STAT SECTION IN LINK 3.
-# NEXT STEP: Resolve permission error for external drive. Read link 3 in notes doc.
-# still Erno 13 error - Permission denied for line 11.
+stamp = datetime.datetime.now()
+x = stamp = datetime.datetime.now()
 
-def log(): # log file function
-    stamp = datetime.datetime.now()
+def log(): # log file function   
     print('Process finished at: ', stamp)
 
 def quickBakcup():
-    shutil.copytree('/home/sherms/HackerRank', '/home/media/sherms/WD HDD 500GB/test_backup1')
+    # shutil.copytree('/home/sherms/HackerRank', '/home/media/sherms/WD HDD 500GB/test_backup1')
     # shutil.copytree('/home/sherms/HackerRank', '/home/sherms/test_hackerrank') # copies locally
     
-    log()
+    # shutil.copytree('/home/sherms/FaN', '/home/sherms/stamp') # 220421: copies to new folder named stamp
+    
+    shutil.copytree('/home/sherms/FaN', '/home/sherms/stamp') # copies to new folder named stamp
+
+    # log()
 
 quickBakcup()

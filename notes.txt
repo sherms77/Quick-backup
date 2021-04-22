@@ -4,9 +4,15 @@ LINKS
 3.https://docs.python.org/3/library/shutil.html
 4.shutil.chown(): https://docs.python.org/3/library/shutil.html#shutil.chown 
 5.os.chown(): https://docs.python.org/3/library/os.html#os.chown 
+6.https://www.pythoncentral.io/how-to-recursively-copy-a-directory-folder-in-python/ 
+7.https://www.pythoncentral.io/how-to-copy-a-file-in-python-with-shutil/
+8.https://grokonez.com/python/how-to-copy-move-rename-delete-files-folders-in-python#Rename_filefolder_in_Python
+9.https://www.geeksforgeeks.org/create-a-directory-in-python/ - CREATE A NEW DIRECTORY
+10.https://stackoverflow.com/questions/1274405/how-to-create-new-folder#1274465 - CREATE A NEW DIRECTORY
 
 NOTES
 190421: Finsihed step 1. UP TO STEP 2.
+220421: DECIDED TO WORK ON STEP 8. Refer to Links 9 and 10 and mkdir(1).py and mkdir(2).py.
 update to save to external HDD - PermissionError: [Errno 13] Permission denied: '/home/media'
 refer to /home/sherms/Python files/csv_import/csv_import.py
 refer to /home/Python files/Python permission error for info about file permissions.
@@ -16,7 +22,6 @@ refer to /home/Python files/Python permission error for info about file permissi
 2.backup script - DOING
 3.need to find out how to give access to external HDD. - UP TO HERE
     a.need to change permissions so Python can access external drive - WD HDD 500GB PATH: /home/media/sherms/TARGET FOLDER
-
 4.test backup script - DOING
 5.log file.
 6.test log file.
@@ -31,7 +36,30 @@ refer to /home/Python files/Python permission error for info about file permissi
 
 FALIED CODE
 
---Date: 010221-->
+--220421--
+import os, shutil, datetime
+
+# 090221: UPTO COPY STAT SECTION IN LINK 3.
+# NEXT STEP: Resolve permission error for external drive. Read link 3 in notes doc.
+# still Erno 13 error - Permission denied for line 11.
+
+stamp = datetime.datetime.now()
+
+def log(): # log file function   
+    print('Process finished at: ', stamp)
+
+def quickBakcup():
+    # shutil.copytree('/home/sherms/HackerRank', '/home/media/sherms/WD HDD 500GB/test_backup1')
+    # shutil.copytree('/home/sherms/HackerRank', '/home/sherms/test_hackerrank') # copies locally
+    shutil.copytree('/home/sherms/FaN', '/home/sherms/stamp') # copies to new folder named stamp
+    
+    shutil.copytree('/home/sherms/FaN', '/home/sherms/stamp') # copies to new folder named stamp
+
+    log()
+
+quickBakcup()
+
+-010221--
 import os, shutil, datetime
 
 def quickBakcup():
