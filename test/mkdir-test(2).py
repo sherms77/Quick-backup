@@ -10,11 +10,28 @@ mode (optional) = integer value representing mode of the directory to be created
 dir_fd (optional) = file descriptor referring to a directory. The default value of this paramater is None. If the specified path is absolute then dir_fd is ignored.
 '''
 
-import os, datetime 
+import os, datetime
+from datetime import date
 
 # directory
-directory = datetime.datetime.now()
+directory = date.today() # datetime.datetime.now()
 
 # parent directory path
-# 220421: UP TO HERE
-# parent_dir = 
+parent_dir = '/home/sherms'
+
+# path
+path =os.path.join(parent_dir, directory)
+
+# create the directory
+# date.today() - current date in
+# '/home/sherms'
+os.mkdir(path)
+print("Directory '% s' created" % directory)
+
+'''
+230421: UP TO HERE. 
+UNSURE IF I WILL CODE THIS OUT AS THIS IS ANTOHER EXAMPLE USING THE OPTIONAL MODE PARAMATER.
+WILL RUN ABOVE CODE FIRST TO SEE HOW IT WORKS.
+# directory
+directory = ''
+'''
