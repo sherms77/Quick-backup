@@ -11,6 +11,7 @@ LINKS
 10.https://stackoverflow.com/questions/1274405/how-to-create-new-folder#1274465 - CREATE A NEW DIRECTORY
 
 NOTES
+030521: Started working on it again. Still working on step 8. Trying to work out how to work out how to create a new folder with each iteration.
 230421: Worked on step 8. Coding out example in mkdir-test(2).py. Refer to notes in file. Might run what I have coded so far to test and see how it works.
 220421: DECIDED TO WORK ON STEP 8. Refer to Links 9 and 10 and mkdir(1).py and mkdir(2).py.
 190421: Finsihed step 1. UP TO STEP 2.
