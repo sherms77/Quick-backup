@@ -13,6 +13,10 @@ dir_fd (optional) = file descriptor referring to a directory. The default value 
 import os, datetime
 from datetime import date
 
+# next step: resolve error on line 23 described below.
+# 040521: Also ran in Pythone IDLE. Got this error: TypeError: join() argument must be str, bytes, or os.PathLike object, not 'date'
+# 040521: Ran code in mkdir-test(2).py. Got error - bash: syntax error near unexpected token '('
+
 # directory
 directory = date.today() # datetime.datetime.now()
 
@@ -27,8 +31,6 @@ path =os.path.join(parent_dir, directory)
 # '/home/sherms'
 os.mkdir(path)
 print("Directory '% s' created" % directory)
-
-# 040521: Ran code in mkdir-test(2).py. Got error - bash: syntax error near unexpected token '('
 
 '''
 230421: UP TO HERE. 

@@ -12,7 +12,7 @@ LINKS
 11.https://codefather.tech/blog/bash-syntax-error-near-unexpected-token/ - refer to line 15 in Notes section.
 
 NOTES
-040521: NEXT STEP: Try to resolve join() argument must by str error. Refer to comments in mkdir-test(2).py.
+040521: NEXT STEP: Try to resolve join() argument must by str error. Refer to comments in mkdir-test(2).py. Work on it in Python IDLE.
 040521: Ran mkdir-test(2).py in Python IDLE. Got error. Refer to Failed code section for error.
 040521: Ran code in mkdir-test(2).py. Got error - bash: syntax error near unexpected token '('
 030521: Started working on it again. Still working on step 8. Trying to work out how to create a new folder with each iteration (backup).
