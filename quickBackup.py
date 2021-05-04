@@ -7,7 +7,7 @@ x = stamp = datetime.datetime.now()
 def log(): # log file function   
     print('Process finished at: ', stamp)
 
-def quickBakcup():
+def quickBackup():
     # shutil.copytree('/home/sherms/HackerRank', '/home/media/sherms/WD HDD 500GB/test_backup1')
     # shutil.copytree('/home/sherms/HackerRank', '/home/sherms/test_hackerrank') # copies locally
     
@@ -17,4 +17,4 @@ def quickBakcup():
 
     # log()
 
-quickBakcup()
+quickBackup()

@@ -28,6 +28,8 @@ path =os.path.join(parent_dir, directory)
 os.mkdir(path)
 print("Directory '% s' created" % directory)
 
+# 040521: Ran code in mkdir-test(2).py. Got error - bash: syntax error near unexpected token '('
+
 '''
 230421: UP TO HERE. 
 UNSURE IF I WILL CODE THIS OUT AS THIS IS ANTOHER EXAMPLE USING THE OPTIONAL MODE PARAMATER.

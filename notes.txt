@@ -9,9 +9,13 @@ LINKS
 8.https://grokonez.com/python/how-to-copy-move-rename-delete-files-folders-in-python#Rename_filefolder_in_Python
 9.https://www.geeksforgeeks.org/create-a-directory-in-python/ - CREATE A NEW DIRECTORY
 10.https://stackoverflow.com/questions/1274405/how-to-create-new-folder#1274465 - CREATE A NEW DIRECTORY
+11.https://codefather.tech/blog/bash-syntax-error-near-unexpected-token/ - refer to line 15 in Notes section.
 
 NOTES
-030521: Started working on it again. Still working on step 8. Trying to work out how to work out how to create a new folder with each iteration.
+040521: NEXT STEP: Try to resolve join() argument must by str error. Refer to comments in mkdir-test(2).py.
+040521: Ran mkdir-test(2).py in Python IDLE. Got error. Refer to Failed code section for error.
+040521: Ran code in mkdir-test(2).py. Got error - bash: syntax error near unexpected token '('
+030521: Started working on it again. Still working on step 8. Trying to work out how to create a new folder with each iteration (backup).
 230421: Worked on step 8. Coding out example in mkdir-test(2).py. Refer to notes in file. Might run what I have coded so far to test and see how it works.
 220421: DECIDED TO WORK ON STEP 8. Refer to Links 9 and 10 and mkdir(1).py and mkdir(2).py.
 190421: Finsihed step 1. UP TO STEP 2.
@@ -37,6 +41,36 @@ refer to /home/Python files/Python permission error for info about file permissi
 11.save log file
 
 FALIED CODE
+
+# 040521: Also ran in Pythone IDLE. Got this error: TypeError: join() argument must be str, bytes, or os.PathLike object, not 'date'
+# 040521: Ran code in mkdir-test(2).py. Got error - bash: syntax error near unexpected token '('
+
+--040521--
+import os, datetime
+from datetime import date
+
+# directory
+directory = date.today() # datetime.datetime.now()
+
+# parent directory path
+parent_dir = '/home/sherms'
+
+# path
+path =os.path.join(parent_dir, directory)
+
+# create the directory
+# date.today() - current date in
+# '/home/sherms'
+os.mkdir(path)
+print("Directory '% s' created" % directory)
+
+'''
+230421: UP TO HERE. 
+UNSURE IF I WILL CODE THIS OUT AS THIS IS ANTOHER EXAMPLE USING THE OPTIONAL MODE PARAMATER.
+WILL RUN ABOVE CODE FIRST TO SEE HOW IT WORKS.
+# directory
+directory = ''
+'''
 
 --220421--
 import os, shutil, datetime
