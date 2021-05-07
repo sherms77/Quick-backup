@@ -12,6 +12,11 @@ LINKS
 11.https://codefather.tech/blog/bash-syntax-error-near-unexpected-token/ - refer to line 15 in Notes section.
 
 NOTES
+060521: NEXT STEP: Integrate code from mkdir-test(2).py into quickBackup.py.
+060521: Modified steps. Step 8 became step 6. Step 6 is DONE.
+060521: Fixed join() argument must be str error.
+060521: Did not code out the rest of the example.
+060521: Got to work as required. Creates new folder named with date time stamp everytime.
 050521: Still trying to resolve str error (below). Look into file paths. Is example from link for windows or linux?
 040521: NEXT STEP: Try to resolve join() argument must be str error. Refer to comments in mkdir-test(2).py. Work on it in Python IDLE.
 040521: Ran mkdir-test(2).py in Python IDLE. Got error. Refer to Failed code section for error.
@@ -26,24 +31,31 @@ refer to /home/Python files/Python permission error for info about file permissi
 
 --Next steps:
 1.create kanban board in GitHub projects - DONE (Finished step 1 190421)
+
 2.backup script - DOING
-3.need to find out how to give access to external HDD. - UP TO HERE
+
+3.need to find out how to give access to external HDD. - PAUSED
     a.need to change permissions so Python can access external drive - WD HDD 500GB PATH: /home/media/sherms/TARGET FOLDER
+
 4.test backup script - DOING
-5.log file.
-6.test log file.
-7.make file executable for linux - ELF file.
+
+5.make file executable for linux: ELF file.
     a.after I have finished the program, make executable. elf (executable and linkable format) file in linux.
-8.cannot save to an existing folder - need to work out method to create new folder each time or overwrite existing folder.
-    a.possible method to create new folder names for target: use date+time stamp - concatenate to end of folder name
-    b.replicate for each folder to copy
-9.create log file
-10.log file needs to print and save the lines of code executed instead of just printing a list of folders copied
-11.save log file
+
+6.cannot save to an existing folder - DONE
+    a.need to work out method to create new folder each time or overwrite existing folder.
+    b.possible method to create new folder names for target: use date+time stamp - concatenate to end of folder name
+    c.replicate for each folder to copy
+
+7.create log file - 060521: This may not be required as folders will have date time stamp as name.
+    a.log file.
+    b.test log file.
+    c.log file needs to print and save the lines of code executed instead of just printing a list of folders copied
+    d.save log file
 
 FALIED CODE
 
-# 040521: Also ran in Pythone IDLE. Got this error: TypeError: join() argument must be str, bytes, or os.PathLike object, not 'date'
+# 040521: Also ran in Python IDLE. Got this error: TypeError: join() argument must be str, bytes, or os.PathLike object, not 'date'
 # 040521: Ran code in mkdir-test(2).py. Got error - bash: syntax error near unexpected token '('
 
 --040521--

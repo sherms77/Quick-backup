@@ -11,14 +11,9 @@ dir_fd (optional) = file descriptor referring to a directory. The default value 
 '''
 
 import os, datetime
-from datetime import date
-
-# next step: resolve error on line 23 described below.
-# 040521: Also ran in Pythone IDLE. Got this error: TypeError: join() argument must be str, bytes, or os.PathLike object, not 'date'
-# 040521: Ran code in mkdir-test(2).py. Got error - bash: syntax error near unexpected token '('
 
 # directory
-directory = date.today() # datetime.datetime.now()
+directory = str(datetime.datetime.now()) # creates new folder with datetime stamp
 
 # parent directory path
 parent_dir = '/home/sherms'
@@ -31,6 +26,10 @@ path =os.path.join(parent_dir, directory)
 # '/home/sherms'
 os.mkdir(path)
 print("Directory '% s' created" % directory)
+
+# 060521: Fixed join() argument must be str error.
+# 060521: Did not code out the rest of the example.
+# 060521: Got to work as required. Creates new folder named with date time stamp everytime.
 
 '''
 230421: UP TO HERE. 
