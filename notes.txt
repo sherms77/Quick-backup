@@ -10,8 +10,12 @@ LINKS
 9.https://www.geeksforgeeks.org/create-a-directory-in-python/ - CREATE A NEW DIRECTORY
 10.https://stackoverflow.com/questions/1274405/how-to-create-new-folder#1274465 - CREATE A NEW DIRECTORY
 11.https://codefather.tech/blog/bash-syntax-error-near-unexpected-token/ - refer to line 15 in Notes section.
+12.https://stackoverflow.com/questions/20450531/python-operator-in-print-statement # what the % means in a str.
+13.https://docs.python.org/2/library/stdtypes.html#string-formatting-operations # % - string formatting or interpolation operator.
 
 NOTES
+060521: NEXT STEP: Develop and test copying files to new timestamped folder using mkdir method.
+060521: Integrated code from mkdir-test(2).py into quickbackup.py.
 060521: NEXT STEP: Integrate code from mkdir-test(2).py into quickBackup.py.
 060521: Modified steps. Step 8 became step 6. Step 6 is DONE.
 060521: Fixed join() argument must be str error.

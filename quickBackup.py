@@ -1,9 +1,24 @@
 import os, shutil, datetime
-# 220421: WORKING ON STEP 8
 
 stamp = datetime.datetime.now()
 x = stamp = datetime.datetime.now()
 
+def create_dir():
+    directory = str(datetime.datetime.now()) # creates folder with datetime stamp
+    parent_dir = '/home/sherms' # parent directory path
+    path =os.path.join(parent_dir, directory) # path
+
+    # FLOW OF EXECUTION (ABOVE)
+    # 1.create the directory
+    # 2.str(datetime.datetime.now()) - current date in
+    # 3.'/home/sherms'
+
+    os.mkdir(path)
+    print("Directory '% s' created" % directory) # '%' is string formatting or interpolation operator
+
+create_dir()
+
+'''
 def log(): # log file function   
     print('Process finished at: ', stamp)
 
@@ -18,3 +33,4 @@ def quickBackup():
     # log()
 
 quickBackup()
+'''
