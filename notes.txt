@@ -14,6 +14,7 @@ LINKS
 13.https://docs.python.org/2/library/stdtypes.html#string-formatting-operations # % - string formatting or interpolation operator.
 
 NOTES
+080521: Reassess steps, reorder as required. Do this before working on NEXT STEP below. Log file may not be required as folders are timestamped. Look at copying folders to newly created folder. use of '%' string formatting maybe required.
 060521: NEXT STEP: Develop and test copying files to new timestamped folder using mkdir method.
 060521: Integrated code from mkdir-test(2).py into quickbackup.py.
 060521: NEXT STEP: Integrate code from mkdir-test(2).py into quickBackup.py.
