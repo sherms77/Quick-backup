@@ -34,6 +34,11 @@ update to save to external HDD - PermissionError: [Errno 13] Permission denied: 
 refer to /home/sherms/Python files/csv_import/csv_import.py
 refer to /home/Python files/Python permission error for info about file permissions.
 
+FLOW OF EXECUTION
+1.Create target folder (for backup).
+2.Copy folders to target folder.
+3.For each backup, new target folder is created - target folder uses timedate stamp as name.
+
 --Next steps:
 1.create kanban board in GitHub projects - DONE (Finished step 1 190421)
 
