@@ -14,7 +14,8 @@ LINKS
 13.https://docs.python.org/2/library/stdtypes.html#string-formatting-operations # % - string formatting or interpolation operator.
 
 NOTES
-110521: NEXT STEP: MODIFY STEPS IN KANBAN BOARD ON GITHUB. THEN CONTINUE WORK ON STEP 4.
+120521: Finished step 4. NEXT: Keep working on step 5.
+110521: NEXT STEP: MODIFY STEPS IN KANBAN BOARD ON GITHUB. THEN CONTINUE WORK ON STEP 5.
 110521: Modified and reordered steps.
 110521: Added flow of execution.
 080521: Reassess steps, reorder as required. Do this before working on NEXT STEP below. Log file may not be required as folders are timestamped. Look at copying folders to newly created folder. use of '%' string formatting maybe required.
@@ -47,13 +48,13 @@ STEPS
 
 2.create kanban board in GitHub projects - DONE (Finished 190421)
 
-3.make new target folder with timedate stamp for each backup - DONE
+3.make new target folder with timedate stamp as name - DONE
     note: cannot save to an existing folder
     a.need to work out method to create new folder each time or overwrite existing folder.
     b.possible method to create new folder names for target: use date+time stamp - concatenate to end of folder name
     c.replicate for each folder to copy
 
-4.Modify steps in kanban board in GitHub to reflect steps here - UPTO HERE
+4.Modify steps in kanban board in GitHub to reflect steps here - DONE
 
 5.copy files to target folder - DOING
     note: develop and test copying files to new timestamped folder using mkdir method.
