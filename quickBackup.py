@@ -14,7 +14,7 @@ def create_dir():
     # 3.'/home/sherms'
 
     os.mkdir(path)
-    print("Directory '% s' created" % directory) # '%' is string formatting or interpolation operator
+    print("Directory '% s' created" % directory) # '%' is a string formatting or interpolation operator
 
 create_dir()
 
