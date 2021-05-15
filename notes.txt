@@ -14,6 +14,14 @@ LINKS
 13.https://docs.python.org/2/library/stdtypes.html#string-formatting-operations # % - string formatting or interpolation operator.
 
 NOTES
+140521: STILL WORKING ON STEP 5. REFER TO copy_test.py.
+140521: i still need to make the new folder name iterable. new name needs to be created each time.
+140521: problem with workaround(below) is that the script will always contain the same folder name and when its copied to external drive there will be an error.
+140521: Possible workaround is:
+    1.copy to local drive (create new folder)
+    2.copy to external drive
+    3.delete backup from local drive.
+140521: When copying from one folder to another using shutil.copytree, it needs create and copy to a new folder. It cannot copy to an existing folder.
 120521: Finished step 4. NEXT: Keep working on step 5.
 110521: NEXT STEP: MODIFY STEPS IN KANBAN BOARD ON GITHUB. THEN CONTINUE WORK ON STEP 5.
 110521: Modified and reordered steps.
