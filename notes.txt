@@ -14,6 +14,7 @@ LINKS
 13.https://docs.python.org/2/library/stdtypes.html#string-formatting-operations # % - string formatting or interpolation operator.
 
 NOTES
+170521: Still working on step 5.
 140521: STILL WORKING ON STEP 5. REFER TO copy_test.py.
 140521: i still need to make the new folder name iterable. new name needs to be created each time.
 140521: problem with workaround(below) is that the script will always contain the same folder name and when its copied to external drive there will be an error.
