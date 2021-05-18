@@ -14,6 +14,8 @@ LINKS
 13.https://docs.python.org/2/library/stdtypes.html#string-formatting-operations # % - string formatting or interpolation operator.
 
 NOTES
+170521: Refer to copy_test.py.
+170521: trying to populate the end of the target path with the folder name generated in the directory variable. I get errors (refer above).
 170521: Still working on step 5.
 140521: STILL WORKING ON STEP 5. REFER TO copy_test.py.
 140521: i still need to make the new folder name iterable. new name needs to be created each time.
@@ -81,10 +83,30 @@ STEPS
 
 FALIED CODE
 
+--170521--
+import os, shutil, datetime
+# from copy_test.py.
+
+directory = str(datetime.datetime.now()) # creates folder with datetime stamp
+parent_dir = '/home/sherms' # parent directory path
+path =os.path.join(parent_dir, directory) # path
+
+os.mkdir(path)
+print("Directory '% s' created" % directory) # '%' is a string formatting or interpolation operator
+
+# shutil.copytree('/home/sherms/test folder', '/home/sherms/2021-05-14 10:45:26.333585') # error - file exists. has to create new folder each time.
+# shutil.copytree('/home/sherms/test folder', '/home/sherms/new')
+
+# shutil.copytree('/home/sherms/test folder', '/home/sherms/%' % directory) # ValueError: incomplete format
+shutil.copytree("/home/sherms/test folder", "/home/sherms/'%' " % directory) # ValueError: unsupported format character ''' (0x27) at index 15
+
+# 170521: trying to populate the end of the target path with the folder name generated in the directory variable.
+# 170521: I get errors (refer above).
+
+--040521--
 # 040521: Also ran in Python IDLE. Got this error: TypeError: join() argument must be str, bytes, or os.PathLike object, not 'date'
 # 040521: Ran code in mkdir-test(2).py. Got error - bash: syntax error near unexpected token '('
 
---040521--
 import os, datetime
 from datetime import date
 
