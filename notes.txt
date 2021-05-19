@@ -14,6 +14,7 @@ LINKS
 13.https://docs.python.org/2/library/stdtypes.html#string-formatting-operations # % - string formatting or interpolation operator.
 
 NOTES
+190521: I need to know how to generate a new folder name within a string. Analyse the '%' string formatting operator to see how it works and if I can use it to achieve this.
 170521: Refer to copy_test.py.
 170521: trying to populate the end of the target path with the folder name generated in the directory variable. I get errors (refer above).
 170521: Still working on step 5.
