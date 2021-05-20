@@ -12,8 +12,10 @@ LINKS
 11.https://codefather.tech/blog/bash-syntax-error-near-unexpected-token/ - refer to line 15 in Notes section.
 12.https://stackoverflow.com/questions/20450531/python-operator-in-print-statement # what the % means in a str.
 13.https://docs.python.org/2/library/stdtypes.html#string-formatting-operations # % - string formatting or interpolation operator.
+14.https://www.youtube.com/watch?v=vTX3IwquFkc - string formatting
 
 NOTES
+190521: NEXT STEP: Finish watching string formatting video in point 14 in links. Shows how to add values into a string using .format function. Then code out and test.
 190521: I need to know how to generate a new folder name within a string. Analyse the '%' string formatting operator to see how it works and if I can use it to achieve this.
 170521: Refer to copy_test.py.
 170521: trying to populate the end of the target path with the folder name generated in the directory variable. I get errors (refer above).
