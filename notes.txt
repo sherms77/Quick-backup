@@ -15,6 +15,7 @@ LINKS
 14.https://www.youtube.com/watch?v=vTX3IwquFkc - string formatting
 
 NOTES
+210521: Still watching video in link 14 - string formatting.
 190521: NEXT STEP: Finish watching string formatting video in point 14 in links. Shows how to add values into a string using .format function. Then code out and test.
 190521: I need to know how to generate a new folder name within a string. Analyse the '%' string formatting operator to see how it works and if I can use it to achieve this.
 170521: Refer to copy_test.py.
