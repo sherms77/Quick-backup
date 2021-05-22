@@ -13,8 +13,11 @@ LINKS
 12.https://stackoverflow.com/questions/20450531/python-operator-in-print-statement # what the % means in a str.
 13.https://docs.python.org/2/library/stdtypes.html#string-formatting-operations # % - string formatting or interpolation operator.
 14.https://www.youtube.com/watch?v=vTX3IwquFkc - string formatting
+15.https://github.com/CoreyMSchafer/code_snippets/blob/master/String-Formatting/formatting.py - string formatting code | github repo.
 
 NOTES
+210521: WORKING ON str formatting. Refer to str-format_test.py.
+210521: Watched video in link 14 - string formatting.
 210521: Still watching video in link 14 - string formatting.
 190521: NEXT STEP: Finish watching string formatting video in point 14 in links. Shows how to add values into a string using .format function. Then code out and test.
 190521: I need to know how to generate a new folder name within a string. Analyse the '%' string formatting operator to see how it works and if I can use it to achieve this.
@@ -73,6 +76,7 @@ STEPS
 
 5.copy files to target folder - DOING
     note: develop and test copying files to new timestamped folder using mkdir method.
+    note 210521: working on string formatting. string formatting inserts timedate folder name at the end of target path, generating new folder name with each iteration.
 
 6.test: repeat copy process to new target folder
 
