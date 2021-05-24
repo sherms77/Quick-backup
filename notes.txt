@@ -16,6 +16,7 @@ LINKS
 15.https://github.com/CoreyMSchafer/code_snippets/blob/master/String-Formatting/formatting.py - string formatting code | github repo.
 
 NOTES
+240521: STILL WORKING ON str formatting. Refer to str-format_test.py.
 210521: WORKING ON str formatting. Refer to str-format_test.py.
 210521: Watched video in link 14 - string formatting.
 210521: Still watching video in link 14 - string formatting.
