@@ -14,8 +14,10 @@ LINKS
 13.https://docs.python.org/2/library/stdtypes.html#string-formatting-operations # % - string formatting or interpolation operator.
 14.https://www.youtube.com/watch?v=vTX3IwquFkc - string formatting
 15.https://github.com/CoreyMSchafer/code_snippets/blob/master/String-Formatting/formatting.py - string formatting code | github repo.
+16.https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior - string formatting docs.
 
 NOTES
+240521: Formatted timedate str. Refer to str-format_test.py.
 240521: STILL WORKING ON str formatting. Refer to str-format_test.py.
 210521: WORKING ON str formatting. Refer to str-format_test.py.
 210521: Watched video in link 14 - string formatting.
