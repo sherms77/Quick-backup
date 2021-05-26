@@ -17,6 +17,8 @@ LINKS
 16.https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior - string formatting docs.
 
 NOTES
+260521: NEXT STEP: COPY FOLDER TO NEW FOLDER WITH TIME DATE STAMP - PART OF STEP 5.
+260521: I have set up method to create new timedate folder name with each iteration. refer to str-fomat_test.py.
 240521: Formatted timedate str. Refer to str-format_test.py.
 240521: STILL WORKING ON str formatting. Refer to str-format_test.py.
 210521: WORKING ON str formatting. Refer to str-format_test.py.
@@ -80,6 +82,7 @@ STEPS
 5.copy files to target folder - DOING
     note: develop and test copying files to new timestamped folder using mkdir method.
     note 210521: working on string formatting. string formatting inserts timedate folder name at the end of target path, generating new folder name with each iteration.
+    note 260521: I have set up method to create new timedate folder name with each iteration. refer to str-fomat_test.py.
 
 6.test: repeat copy process to new target folder
 
