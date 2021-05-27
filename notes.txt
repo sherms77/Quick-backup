@@ -17,6 +17,11 @@ LINKS
 16.https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior - string formatting docs.
 
 NOTES
+270521: Rethink this.
+270521: Process to copy entire home folder takes a while. I killed it at 3 minutes.
+270521: I think I will just copy to entire home folder to the target folder. Most straight forward way to do it.
+270521: Need to work out way to copy multiple folders to the same target folder. Add new steps to come up with method and tests for this.
+270521: Tried to copy multiple folders to the same target folder - test did not work. Only copied one folder, source1 to target. could not copy source2 bc target folder already exists.
 260521: Finished steps 5 and 6. NEXT STEP: 7.
 260521: NEXT STEP: COPY FOLDER TO NEW FOLDER WITH TIME DATE STAMP - PART OF STEP 5.
 260521: I have set up method to create new timedate folder name with each iteration. refer to str-fomat_test.py.

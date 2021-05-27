@@ -22,6 +22,15 @@ stamp = datetime.datetime.now()
 
 # shutil.copytree('/home/sherms/test folder', '/home/sherms/test1') # works
 
-shutil.copytree('/home/sherms/test folder', '/home/sherms/{:%d%m%y-%H:%M:%S}'.format(stamp)) # works
+# shutil.copytree('/home/sherms/test folder', '/home/sherms/{:%d%m%y-%H:%M:%S}'.format(stamp)) # works
 
+# test - two different folders to same target folder
+# shutil.copytree('/home/sherms/source1', '/home/sherms/{:%d%m%y-%H:%M:%S}'.format(stamp)) # works
+# shutil.copytree('/home/sherms/source2', '/home/sherms/{:%d%m%y-%H:%M:%S}'.format(stamp)) # works
 
+# 270521: test did not work. only copied one folder, source1 to target. could not copy source2 bc target folder already exists.
+# 270521: need to work out way to copy multiple folders to the same target folder.
+
+# test 2 - copy whole home folder to target folder
+shutil.copytree('/home/sherms', '/home/sherms/{:%d%m%y-%H:%M:%S}'.format(stamp)) # works
+print('Process finished: home folder copied to target folder')
