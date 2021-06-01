@@ -15,8 +15,12 @@ LINKS
 14.https://www.youtube.com/watch?v=vTX3IwquFkc - string formatting
 15.https://github.com/CoreyMSchafer/code_snippets/blob/master/String-Formatting/formatting.py - string formatting code | github repo.
 16.https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior - string formatting docs.
+17.https://docs.python.org/3/library/shutil.html - Python docs for shutil
+18.https://www.programcreek.com/python/example/7403/shutil.ignore_patterns - shutil.ignore
 
 NOTES
+280521: shutil.ignore patterns might be right method. Copy home folder and exclude folders I don't want to copy. Also refer to listdir_test.py. Shows how to list files from a directory.
+280521: Do some research to see if there is a way to select only certain folders and copy them to one target folder.
 270521: Rethink this.
 270521: Process to copy entire home folder takes a while. I killed it at 3 minutes.
 270521: I think I will just copy to entire home folder to the target folder. Most straight forward way to do it.
