@@ -17,8 +17,12 @@ LINKS
 16.https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior - string formatting docs.
 17.https://docs.python.org/3/library/shutil.html - Python docs for shutil
 18.https://www.programcreek.com/python/example/7403/shutil.ignore_patterns - shutil.ignore
+19.https://medium.com/@oluwabukunmige/selective-copying-of-files-from-one-folder-to-another-using-python-346ad1f500fa - selective copying of files from one folder to another.
+20.https://stackoverflow.com/questions/54762084/copy-specific-subdirectories-by-its-name-with-python - copy specific sub-directories only.
+21.https://www.youtube.com/watch?v=NEeYDqNXBzM - how os.walk works
 
 NOTES
+020621: Created pseudo_qb.py file to write pseudo code for quick backup script. Still tryng to understand shutil.ignore. os.walk comes up alot in my research so trying to understan that too.
 020621: Still looking into how to you use shutil.ignore_patterns(*patterns) to ignore files and folders that I don't want to copy.
 280521: shutil.ignore patterns might be the right method. Copy home folder and exclude folders I don't want to copy. Also refer to listdir_test.py. Shows how to list files from a directory.
 280521: Do some research to see if there is a way to select only certain folders and copy them to one target folder.
