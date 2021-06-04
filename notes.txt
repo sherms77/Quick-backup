@@ -22,6 +22,7 @@ LINKS
 21.https://www.youtube.com/watch?v=NEeYDqNXBzM - how os.walk works
 
 NOTES
+030621: Tested copying entire home folder. Process takes too long. Refer to qb-home.py. Keep researching a way to copy selected folders only.
 020621: Created pseudo_qb.py file to write pseudo code for quick backup script. Still tryng to understand shutil.ignore. os.walk comes up alot in my research so trying to understan that too.
 020621: Still looking into how to you use shutil.ignore_patterns(*patterns) to ignore files and folders that I don't want to copy.
 280521: shutil.ignore patterns might be the right method. Copy home folder and exclude folders I don't want to copy. Also refer to listdir_test.py. Shows how to list files from a directory.
