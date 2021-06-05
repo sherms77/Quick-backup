@@ -20,6 +20,7 @@ LINKS
 19.https://medium.com/@oluwabukunmige/selective-copying-of-files-from-one-folder-to-another-using-python-346ad1f500fa - selective copying of files from one folder to another.
 20.https://stackoverflow.com/questions/54762084/copy-specific-subdirectories-by-its-name-with-python - copy specific sub-directories only.
 21.https://www.youtube.com/watch?v=NEeYDqNXBzM - how os.walk works
+22.https://www.geeksforgeeks.org/python-shutil-copytree-method/ - copytree methods
 
 NOTES
 030621: Tested copying entire home folder. Process takes too long. Refer to qb-home.py. Keep researching a way to copy selected folders only.
