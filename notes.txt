@@ -24,6 +24,8 @@ LINKS
 23.https://stackoverflow.com/questions/28985921/exclude-some-of-subfolders-while-copying-im-using-copytree-in-python - how to use ignore patterns
 
 NOTES
+070621: UP TO STEP 7.
+070621: Finished steps 5 and 6. Successfully copied folders to target folder with time/date stamp as folder name.
 050621: NEXT STEP: Set up script to copy selected folders and test copying locally.
 050621: Worked out how to exclude folders and tested on test folders and files. Refer to qb(4).py.
 030621: Tested copying entire home folder. Process takes too long. Refer to qb-home.py. Keep researching a way to copy selected folders only.
@@ -99,12 +101,12 @@ STEPS
 
 4.Modify steps in kanban board in GitHub to reflect steps here - DONE
 
-5.copy selected folders to target folder - DOING
+5.copy selected folders to target folder - DONE
     note: I used string formatting to copy files to a new folder using a timedate stamp as its name. 
           It will create new timedate stamped folder with each iteration.
           I will not try to use the mkdir method.
     
-6.test: repeat copy process to new target folder
+6.test: repeat copy process to new target folder - DONE
 
 7.copy to target drive
     a.need to find out how to give access to external HDD.
