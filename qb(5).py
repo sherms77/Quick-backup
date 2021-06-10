@@ -1,4 +1,4 @@
-# README.md has docs
+# README file in quickbackup folder has docs
 import shutil, datetime, os
 stamp = datetime.datetime.now() # creates target folder - uses datetime.now() as name
 

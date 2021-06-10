@@ -24,6 +24,13 @@ LINKS
 23.https://stackoverflow.com/questions/28985921/exclude-some-of-subfolders-while-copying-im-using-copytree-in-python - how to use ignore patterns
 
 NOTES
+090621: UPTO STEP 8.
+090621: Decided to abandon step 7. 
+        I will need to copy to an existing folder which you cannot do with shutil.tree. 
+        This means the extra step of moving the copied folder to the desired location still needs to happen.
+        This makes the process of copying straight to the target drive redundant. 
+        There is probably a way to have it copy or moved to an existing folder, however, its not worth the time right now.
+        It can probably be done with the move function in the shutil module. May revisit at a later stage.
 070621: UP TO STEP 7.
 070621: Finished steps 5 and 6. Successfully copied folders to target folder with time/date stamp as folder name.
 050621: NEXT STEP: Set up script to copy selected folders and test copying locally.
@@ -108,7 +115,7 @@ STEPS
     
 6.test: repeat copy process to new target folder - DONE
 
-7.copy to target drive
+7.copy to target drive - ABANDONED: Refer to note dated 090621
     a.need to find out how to give access to external HDD.
     b.need to change permissions so Python can access external drive - WD HDD 500GB PATH: /home/media/sherms/TARGET FOLDER
 

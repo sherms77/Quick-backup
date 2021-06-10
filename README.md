@@ -17,4 +17,5 @@ Info about script:
 Active
 
 # Timeline
-Started: Dec 2019 Finished: TBC
+- Started: Dec 2019 
+- Finished: TBC
