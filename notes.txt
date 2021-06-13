@@ -22,8 +22,22 @@ LINKS
 21.https://www.youtube.com/watch?v=NEeYDqNXBzM - how os.walk works
 22.https://www.geeksforgeeks.org/python-shutil-copytree-method/ - copytree methods
 23.https://stackoverflow.com/questions/28985921/exclude-some-of-subfolders-while-copying-im-using-copytree-in-python - how to use ignore patterns
+24.https://www.youtube.com/watch?v=npqsIbhn2Yg - convert to executable file in linux using pyinstaller
+25.https://www.youtube.com/watch?v=9CTmC5Y7QeM - convert to an executable file
 
 NOTES
+130621: Finished project. Updated README.
+        Decided not to try and convert the file into a file that can be launched from nautilus or the desktop. 
+        I have converted it to an executable file that can be launched from the terminal.
+120621: Go over video in link 25 again and try method.
+120621: Video in link 25 allows you to launch file from desktop, assuming it will also be launchable from the home folder in nautilus. It requires python script to be present and you will need to tell os its executable. Does not use pyinstaller.
+120621: I want to make it executable by double clicking it. Will watch the video in link 25, it appears he has done this but his steps are not clear. Will rewatch to try and understand.
+120621: I deleted its build folders, spec file, original python script and moved the executable file to the home folder. It still works as a stand alone file. It isn't an elf file. It does not have an extension when I checked the properties.
+120621: Used method 2 from video in link 24 to convert to an executable file. Used pyinstaller. It is only executable through the terminal - command ./qb.
+120621: WORKING ON STEP 8.
+120621: Was unable to print the contents of the target folder using os.listdir. Abandoned idea.
+120621: If I can print the contents of the target folder, it would remove the need to manually update the list in the exlcluded folders function if it changes.
+120621: Before I start step 8, I will try to use os.listdir to print the contents of the target folder.
 090621: UPTO STEP 8.
 090621: Decided to abandon step 7. 
         I will need to copy to an existing folder which you cannot do with shutil.tree. 
@@ -125,6 +139,17 @@ STEPS
 9.test - ELF file
 
 FALIED CODE
+
+--120621--
+# tried to use os.lisdir to print contents of the target folder after the copy process is finished.
+# this would remove the need to manually update the list in the exlcluded folders function if it changes.
+# code below did not work.
+
+def dst_contents():
+    dstdir = os.listdir('/home/sherms/{:%d%m%y_%H-%M-%S}'.format(stamp))
+    print('Directory contents - including hidden: ')
+    for k in zip(dstdir):
+        print(k)
 
 --170521--
 import os, shutil, datetime
